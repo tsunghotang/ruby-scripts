@@ -13,7 +13,7 @@ class Router
   def run
     loop do
       puts ""
-      puts "What would you like to do"
+      puts "What would you like to do?"
       display_options
       print "> "
       user_choice = gets.chomp.to_i
